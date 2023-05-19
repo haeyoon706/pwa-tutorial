@@ -12,5 +12,8 @@ self.addEventListener("install", function (event) {
         // pwa 파일에 다 집어 넣어라
         return cache.addAll(filesToCache);
       })
+      .catch(function (error) {
+        return console.log(error);
+      })
   );
 });
