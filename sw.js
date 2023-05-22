@@ -1,7 +1,15 @@
 // 캐싱 스토리지에 저장될 파일 이름
-var CACHE_NAME = "pwa-offline-v1";
+var CACHE_NAME = "pwa-offline-v2";
 // 캐싱할 웹 자원(이미지, css 등)의 목록
-var filesToCache = ["/", "/css/app.css"];
+var filesToCache = [
+  "/",
+  "/css/app.css",
+  "/favicon.png",
+  "/images/gauntlet.jpg",
+  "/images/hammer.png",
+  "/images/referesh.svg",
+  "/images/shield.png",
+];
 
 // 서비스 워커 설치 (웹 자원 캐싱)
 self.addEventListener("install", function (event) {
