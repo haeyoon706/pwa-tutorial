@@ -20,5 +20,8 @@
   "homepage": "https://github.com/joshua1988/pwa-tutorial#readme",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "sw-precache": "^5.2.1"
   }
 }
